@@ -11,6 +11,7 @@ of AI-generated social media content through systematic prompt testing.
 ## Tools Used
 - GitHub
 - Markdown
+- Open Ai(chatgpt)
 
 ## Methodology
 
