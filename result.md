@@ -350,3 +350,173 @@ A short AI caption for students in approximately 30–40 words
 **Reason:**  
 The output meets the expected criteria because it is concise, student-focused, and communicates a clear message about using AI for learning.
 
+# Version 1.0 vs Version 2.0 Comparison
+
+## 1. Relevance
+
+### Version 1.0
+- Score: 4/5
+- The captions were generally relevant to AI and students.
+- However, Test Case 3 showed that the prompt could lose focus on the requested topic.
+
+### Version 2.0
+- Score: 5/5
+- The captions consistently stayed relevant to the requested topic.
+- Test Case 3 specifically focused on ChatGPT for studying.
+
+### Improvement
+- Version 2.0 provides better control over topic relevance.
+
+---
+
+## 2. Clarity
+
+### Version 1.0
+- Score: 4/5
+- The outputs were generally clear and easy to understand.
+- However, the prompt did not explicitly require a specific communication style.
+
+### Version 2.0
+- Score: 5/5
+- The prompt explicitly requires simple, clear, and beginner-friendly language.
+- The outputs were more consistently structured.
+
+### Improvement
+- Version 2.0 provides clearer instructions for communication style.
+
+---
+
+## 3. Audience Suitability
+
+### Version 1.0
+- Score: 4/5
+- The prompt mentioned students, so the outputs were generally student-focused.
+- However, the target audience was not clearly defined.
+
+### Version 2.0
+- Score: 5/5
+- The prompt specifically defines university students interested in learning about AI.
+
+### Improvement
+- Version 2.0 gives the AI clearer audience context.
+
+---
+
+## 4. Topic Focus
+
+### Version 1.0
+- Score: 3/5
+- The biggest weakness appeared in Test Case 3.
+- The output discussed generative AI instead of specifically focusing on ChatGPT for studying.
+
+### Version 2.0
+- Score: 5/5
+- The Topic-Focus Rule explicitly tells the AI to prioritize the requested topic.
+- Test Case 3 successfully focused on ChatGPT for studying.
+
+### Improvement
+- Version 2.0 significantly improves topic control.
+
+---
+
+## 5. Engagement
+
+### Version 1.0
+- Score: 4/5
+- The outputs were generally engaging.
+- However, engagement was not explicitly required by the original prompt.
+
+### Version 2.0
+- Score: 5/5
+- The prompt explicitly requires a strong opening hook and a call to action.
+
+### Improvement
+- Version 2.0 provides more consistent engagement elements.
+
+---
+
+## 6. Instruction Following
+
+### Version 1.0
+- Score: 3/5
+- The prompt contained only a general instruction.
+- Test Case 3 demonstrated that specific requirements could be missed.
+
+### Version 2.0
+- Score: 5/5
+- The prompt contains specific instructions for topic, language, tone, structure, CTA, and hashtags.
+
+### Improvement
+- Version 2.0 gives the model clearer instructions to follow.
+
+---
+
+## 7. Length Control
+
+### Version 1.0
+- Score: 3/5
+- No specific length requirement was included in the original prompt.
+- Output length could therefore vary between test cases.
+
+### Version 2.0
+- Score: 4/5
+- The prompt explicitly requires concise captions.
+- Test Case 5 produced a short caption suitable for the requested requirement.
+
+### Improvement
+- Version 2.0 provides better control over output length.
+
+---
+
+## 8. Output Consistency
+
+### Version 1.0
+- Score: 3/5
+- The output structure was not predefined.
+- Different test cases could produce different structures.
+
+### Version 2.0
+- Score: 5/5
+- The prompt defines a consistent structure:
+  - Hook
+  - Caption
+  - Call to Action
+  - Hashtags
+
+### Improvement
+- Version 2.0 produces a more predictable and reusable output structure.
+
+---
+
+# Overall Comparison
+
+## Version 1.0
+
+- Simple and flexible.
+- Can generate generally relevant AI captions.
+- Provides limited control over the output.
+- Has difficulty handling specific requirements consistently.
+- Does not define a fixed output structure.
+
+## Version 2.0
+
+- Provides clear role and audience context.
+- Defines specific instructions and constraints.
+- Uses a reusable topic variable.
+- Provides a consistent output format.
+- Gives stronger control over topic focus.
+- Produces more predictable results.
+
+## Overall Finding
+
+Version 2.0 performed better than Version 1.0 because it introduced clearer instructions, audience context, topic control, constraints, and output formatting.
+
+The most significant improvement was observed in Test Case 3, where Version 1.0 failed to focus on ChatGPT for studying while Version 2.0 successfully generated content specifically about using ChatGPT for studying.
+
+## Key Learning
+
+This experiment demonstrated that prompt optimization should be based on observed failures rather than simply making a prompt longer.
+
+The process followed:
+
+**Design → Test → Evaluate → Identify Weaknesses → Optimize → Retest → Compare**
