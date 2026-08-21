@@ -159,7 +159,7 @@ Use this structure:
 **Call to Action:** One question or action encouraging engagement.
 **Hashtags:** 3–5 relevant hashtags.
 
-### Topic: How students can use AI tool for studying?
+### Topic: How students can use chatgpt for studying?
 
 # Test Case 4
 ## Prompt
